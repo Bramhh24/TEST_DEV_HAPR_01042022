@@ -1,6 +1,9 @@
 # TEST_DEV_HAPR_01042022
 Prueba Toka y FrontWeb utilice como paquetes de nuget Dapper y System.Data.SqlClient. El proyecto PruebaToka es el Rest Api.
 
+En la base de datos hice ligeros cambios y en los procedimientos almacenados no me funcionaban el actualizar y borrar, porque entraba al if
+y mandaba el msj de error y nunca aplicaba el update, unicamente los cambie de lugar.
+
 Para ser sincero nunca había hecho ni una api y tampoco había trabajado haciendo un login con su logout y crud. 
 Unicamente he hecho cruds y otras funciones pero sin la necesidad de tener un usuario conectado. 
 Así que todo esto fue mi primera vez y espero este bien. Probé el api usando el Swagger y todo me daba bien.
