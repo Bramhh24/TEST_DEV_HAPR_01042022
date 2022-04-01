@@ -2,7 +2,7 @@
 
 namespace FrontWeb.Servicios
 {
-    public class MensajesDeErrorIdentity: IdentityErrorDescriber
+    public class MensajesDeErrorIdentity: IdentityErrorDescriber // Mensajes de error traducidos
     {
         public override IdentityError DefaultError() { return new IdentityError { Code = nameof(DefaultError), Description = $"Ha ocurrido un error." }; }
         public override IdentityError ConcurrencyFailure() { return new IdentityError { Code = nameof(ConcurrencyFailure), Description = "Ha ocurrido un error, el objeto ya ha sido modificado (Optimistic concurrency failure)." }; }

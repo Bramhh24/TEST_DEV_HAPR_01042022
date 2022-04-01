@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FrontWeb.Controllers
 {
-    [Authorize]
+    [Authorize] // Authorize de nivel controlador
     public class UsuariosController: Controller
     {
         private readonly UserManager<Usuario> userManager;
@@ -30,7 +30,7 @@ namespace FrontWeb.Controllers
         }
 
         [HttpGet]
-        [AllowAnonymous]
+        [AllowAnonymous] // Se utiliza para poder permitir ingresar a registro, etc.
         public IActionResult Registro()
         {
             return View();

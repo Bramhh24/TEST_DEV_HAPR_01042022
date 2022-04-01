@@ -13,9 +13,9 @@ namespace PruebaToka.Validaciones
 
             var palabras = value.ToString();
 
-            if(palabras.Length < 13 || palabras.Length > 13)
+            if(palabras.Length < 13 || palabras.Length > 13) // Si la palabra es menor o mayor a 13
             {
-                return new ValidationResult("Tienen que ser 13 caracteres.");
+                return new ValidationResult("Tienen que ser 13 caracteres."); // Manda un error
             }
 
             return ValidationResult.Success;

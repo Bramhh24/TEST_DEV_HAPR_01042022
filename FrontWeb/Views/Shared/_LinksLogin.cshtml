@@ -2,7 +2,7 @@
 @inject SignInManager<Usuario> SignInManager
 
 <ul class="navbar-nav">
-    @if (SignInManager.IsSignedIn(User))
+    @if (SignInManager.IsSignedIn(User)) // Si el usuario esta autenticado
     {
         <li class="nav-item">
             <span class="nav-link text-dark">Hola, @User.Identity.Name</span>
