@@ -1,6 +1,9 @@
 # TEST_DEV_HAPR_01042022
 Prueba Toka y FrontWeb utilice como paquetes de nuget Dapper y System.Data.SqlClient. El proyecto PruebaToka es el Rest Api.
 
+Hice una base de datos para el proeycto de FrontWeb, les deje los scripts en el inicio del repo, Script.sql es el que me mandaron y el Frontweb.sql es
+uno que hice para el proyecto del mismo nombre.
+
 En la base de datos hice ligeros cambios y en los procedimientos almacenados no me funcionaban el actualizar y borrar, porque entraba al if
 y mandaba el msj de error y nunca aplicaba el update, unicamente los cambie de lugar.
 
