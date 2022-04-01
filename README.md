@@ -1,9 +1,9 @@
 # TEST_DEV_HAPR_01042022
-Prueba Toka, utilice como paquetes de nuget Dapper y System.Data.SqlClient.
+Prueba Toka y FrontWeb utilice como paquetes de nuget Dapper y System.Data.SqlClient.
 El proyecto PruebaToka es el Rest Api.
 
 Para ser sincero nunca había hecho ni una api y tampoco había trabajado haciendo un login con su logout y crud.
-Unicamente he hecho cruds y otras funciones pero sin la necidad de tener un usuario conectado. Así que todo esto fue mi primera vez y espero este bien.
+Unicamente he hecho cruds y otras funciones pero sin la necesidad de tener un usuario conectado. Así que todo esto fue mi primera vez y espero este bien.
 Probé el api usando el Swagger y todo me daba bien.
 
 Le agregue validaciones al modelo del api y hice una validación para el RFC llamado TrecePalabras que se encuentra en la carpeta Validaciones.
